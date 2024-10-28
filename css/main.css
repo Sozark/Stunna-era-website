@@ -32,7 +32,7 @@ body{
       left: 0rem;
       width: 5px; 
       height: 100%;
-      background-image: linear-gradient(to right, #171618, #3bff33);
+      background-image: linear-gradient(to right, #171618, #ffd700);
       animation: animimation1 2s linear infinite; 
       -webkit-animation: animation1 2s linear infinite;
   }
@@ -43,7 +43,7 @@ body{
       right: 0rem;
       width: 5px; 
       height: 100%;
-      background-image: linear-gradient(to right, #171618, #3bff33);
+      background-image: linear-gradient(to right, #171618, #ffd700);
       animation: animimation2 2s linear infinite; 
       -webkit-animation: animation2 2s linear infinite;
       
@@ -55,7 +55,7 @@ body{
     left: 0rem;
     width: 100%; 
     height: 5px;
-    background-image: linear-gradient(to right, #171618, #3bff33);
+    background-image: linear-gradient(to right, #171618, #ffd700);
     animation: animimation3 2s linear infinite; 
     -webkit-animation: animation3 3s linear infinite;
   }
@@ -66,7 +66,7 @@ body{
     left: 0rem;
     width: 100%; 
     height: 5px;
-    background-image: linear-gradient(to left, #171618, #3bff33);
+    background-image: linear-gradient(to left, #171618, #ffd700);
     animation: animimation4 2s linear infinite; 
     -webkit-animation: animation4 3s linear infinite;
     animation-delay: 1s;
