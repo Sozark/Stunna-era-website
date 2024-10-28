@@ -1,5 +1,5 @@
 .button{
-    background-color: #000000;
+    background-color: #e8c5c57a;
     color:#3bff33
   }
   
@@ -65,4 +65,43 @@
     animation-delay: 1s;
   }
   
+  @keyframes animation1{
+    0% {
+      transform: translateY(100%);
+    }
+    100%{
+      transform: translateX(-100%);
+    }
+  }
   
+  @keyframes animation2{
+      0% {
+        transform: translateY(-100%);
+      }
+      100%{
+        transform: translateY(100%);
+      }
+    }
+  
+    @keyframes animation3{
+      0% {
+        transform: translateX(-100%);
+      }
+      100%{
+        transform: translateX(100%);
+      }
+    }
+    
+    @keyframes animation4{
+    0% {
+      transform: translateX(100%);
+    }
+    100%{
+      transform: translateX(-100%);
+    }
+    }  
+  
+    @media only screen and (mid-width: 600px) {
+  
+    }
+      
