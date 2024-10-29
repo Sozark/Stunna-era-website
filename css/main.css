@@ -18,9 +18,10 @@ p{
 }
 
 .StunnaButton{
-  align-items: center;
-  position:absolute;
-
+  float: left;
+  margin-left: 0px 0px 0px 30px;
+  width: 80px;
+  height: 38px
 }
 
 .Shine {
@@ -34,6 +35,22 @@ p{
 }
 
 .ghostwrap{
+  transform: translate(90px, 100px);
+}
+
+.OJDaJuiceman{
+  transform: translate(330px, -200px);
+}
+
+.T-Pain{
+  transform: translate(220px, -200px);
+  width: 450px;
+}
+
+.CashMoney {
+
+}
+.soujaBoy {
 
 }
 
