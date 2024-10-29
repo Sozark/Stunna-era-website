@@ -4,6 +4,10 @@ body{
   align-content: center;
 }
 
+div{
+  transform: translate(50px, 100px);
+}
+
 
 .StunnaButton{
   align-items: center;
