@@ -1,12 +1,14 @@
 body{
   background-color: black;
-  display: flex;
+  display: flexbox;
+  align-content: center;
 }
 
 
 .StunnaButton{
   align-items: center;
-  position:absolute
+  position:absolute;
+
 }
 
 .button{
