@@ -3,6 +3,7 @@ body{
   display: flexbox;
   align-content: center;
   background-image: url(https://pixabay.com/videos/fire-flame-heat-light-up-9164/)
+  background-image: url(https://pixabay.com/videos/flames-heat-warm-warmth-burn-oven-2336/)
 }
 
 div{
@@ -28,6 +29,20 @@ p{
    top: 90px;
    height: 100px;
   
+}
+
+.myVideo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1; /* Places video behind content */
+  object-fit: cover;
+}
+
+.myVideo2{
+
 }
 
 .Stuntin {
@@ -165,4 +180,56 @@ p{
     @media only screen and (mid-width: 600px) {
   
     }
+
+   /* This is for the car animation in progress */
+    .car {
+      background-image: url();
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 17rem;
+      height: 4.699rem;
+      position: absolute;
+      bottom: 77px;
+      left: 396px;
+  }
+  
+
+    .wheel {
+      position: absolute;
+      animation: wheelanimation linear .6s infinite;
+  }
+  
+  .wheel1 {
+      background-image: url(wheel1-removebg-preview.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 46px;
+      height: 49px;
+      bottom: 71px;
+      left: 570px;
+  }
+  
+  .wheel2 {
+      background-image: url(wheel2-removebg-preview.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 43px;
+      height: 44px;
+      bottom: 77px;
+      left: 433px;
+  }
+  
+  /* Rotation of the wheels */
+  @keyframes wheelanimation {
+      100% {
+          transform: rotate(360deg);
+      }
+  }
+  
+  /* Moving the track backwards */
+  @keyframes trackanimation {
+      100% {
+          transform: translate(-500vw);
+      }
+  }
       
