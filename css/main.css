@@ -2,7 +2,7 @@ body{
   background-color: black;
   display: flexbox;
   align-content: center;
-  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/04/Backgrounds-fire-wallpaper-HD.jpg)
+  background-image: url(https://pixabay.com/videos/fire-flame-heat-light-up-9164/)
 }
 
 div{
@@ -47,11 +47,16 @@ p{
   width: 450px;
 }
 
-.CashMoney {
-
+.LilWayne {
+  transform: translate(-400px, -100px);
 }
 .soujaBoy {
 
+}
+
+.Future {
+    transform: translate(1000px, -650px);
+    width: 325px;
 }
 
 .button{
