@@ -8,7 +8,8 @@ body {
 }
 
 div {
-  /* Define specific styles if necessary */
+  position: absolute;
+    bottom: 300px;
 }
 
 h1, p {
@@ -20,9 +21,7 @@ p {
 }
 
 .StunnaButton {
-  margin: 0px 0px 0px 30px;
   width: 80px;
-  height: 38px;
 }
 
 .Shine1 {
@@ -75,6 +74,10 @@ p {
   min-height: 100vh;
   z-index: -1;
   object-fit: cover;
+}
+
+.Artists{
+
 }
 
 .soujaBoy {
