@@ -4,7 +4,7 @@ body{
   align-content: center;
   background-image: url(https://pixabay.com/videos/fire-flame-heat-light-up-9164/)
   background-image: url(https://pixabay.com/videos/flames-heat-warm-warmth-burn-oven-2336/)
-}
+  cursor: url(), auto; /*Attempt at making a custon cursor*/
 
 div{
   
@@ -25,10 +25,63 @@ p{
   height: 38px
 }
 
-.Shine {
-   top: 90px;
-   height: 100px;
+.Shine img {
+  position:relative; 
+   top: -900px;
+  width: 50px;
+  animation-name: ImageZoom;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.Shine1   {
+  position: absolute; 
+  top: -500px;
+  right: -400px;
+}
+
+.Shine2  {
   
+}
+
+.Shine3   {
+ 
+}
+
+.Shine4   {
+ 
+}
+
+.Shine5  {
+  
+}
+
+.ArtistText{
+
+}
+
+.LilWayneText{
+
+}
+
+.FutureText{
+
+}
+
+.OJDaJuicemanText{
+
+}
+
+.soujaBoyText{
+
+}
+
+.ghostFaceText{
+
+}
+
+.TPainText{
+
 }
 
 .myVideo{
@@ -176,6 +229,15 @@ p{
       transform: translateX(-100%);
     }
     }  
+
+    @keyframes ImageZoom{
+      0%{
+        font-size:50px
+      }
+      100%{
+        font-size:100px
+      }
+    }
   
     @media only screen and (mid-width: 600px) {
   
