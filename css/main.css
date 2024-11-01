@@ -82,7 +82,7 @@ p {
 
 .ArtistsText{
   position: absolute;
-    bottom: -199px; /*change to 200px*/
+    bottom: -200px; /*change to 200px*/
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -224,15 +224,17 @@ p {
   100% { font-size: 100px; }
 }
 
+@import url("fonts.css");
+
 @media only screen and (max-width: 600px) {
   /* Mobile specific styles here */
 }
 
 @font-face {
-  font-family: 'FightingSpirit';
-  url("/img/fighting_spirit_tbs/FightingSpirit2.woff2") format("woff2"),
-       url("/img/fighting_spirit_tbs/FightingSpirit2.woff") format("woff"),
-       url("/img/fighting_spirit_tbs/FightingSpirit2.otf") format("opentype");
+  font-family:'Fighting Spirit';
+  src: url('../fonts/FightingSpirit.otf') format('opentype'); /* Adjust path as needed */
+  font-weight: normal;
+  font-style: normal;
 }
 
 
