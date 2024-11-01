@@ -4,7 +4,7 @@ body {
   align-content: center;
   background-image: url(https://pixabay.com/videos/fire-flame-heat-light-up-9164/), 
                     url(https://pixabay.com/videos/flames-heat-warm-warmth-burn-oven-2336/);
-  font-family: 'FightingSpirit', sans-serif;
+                    font-family: "Ceviche One", system-ui;
   cursor: url("https://static.vecteezy.com/system/resources/previews/013/423/816/non_2x/portrait-of-us-president-benjamin-franklin-on-100-dollars-banknote-closeup-macro-fragment-united-states-hundred-dollars-money-bill-photo.jpg"), auto; /* Add a valid URL for custom cursor */
 }
 
@@ -16,7 +16,8 @@ body {
 
 h1, p, div{
   color: #f5f5f5;
-  font-family: 'FightingSpirit', sans-serif;
+  font-family: "Ceviche One", system-ui !important;
+
 }
 
 /*.StunnaButton {
@@ -81,6 +82,7 @@ h1, p, div{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    font-family: "Ceviche One", system-ui;;
 }
 
 .soujaBoy {
@@ -194,6 +196,13 @@ h1, p, div{
   animation-delay: 1s;
 }
 
+.ceviche-one-regular {
+  font-family: "Ceviche One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 @keyframes animation1 {
   0% { transform: translateY(100%); }
   100% { transform: translateY(-100%); }
@@ -273,6 +282,9 @@ h1, p, div{
   0%, 100% { opacity: 0; }
   50% { opacity: 1; }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 .shine {
   width: 50px;
