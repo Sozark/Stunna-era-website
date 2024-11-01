@@ -14,15 +14,83 @@ body {
   left: 15%;
 }
 
-h1, p, div{
+ p{
   color: #f5f5f5;
   font-family: "Ceviche One", system-ui !important;
+  font-size:30px; 
 
+}
+a{
+color: #f5f5f5;
+  font-family: "Ceviche One", system-ui !important;
+  font-size:50px; 
+}
+
+.Stuntin{
+  color: #f5f5f5;
+  font-family: "Ceviche One", system-ui !important;
+  font-size:50px;
 }
 
 /*.StunnaButton {
   width: 80px;
 }*/
+.StuntinDefinition {
+  position: absolute;
+  left: 1%;
+  top: 12%;
+  max-width: 400px; /* Adjust to control the text width */
+  rgb(0 0 0 / 25%) /* Urban Dictionary-like dark background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  word-wrap: break-word;
+}
+
+.StuntinDefinition h1 {
+  color: #f5f5f5;
+  font-family: "Ceviche One", system-ui; /* Replace with your font */
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+
+.StuntinDefinition p {
+  color: #cfcfcf; /* Lighter text for contrast */
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.ReleaseDate {
+  position: absolute;
+  right: 1%;
+  top: 36%;
+  max-width: 400px; /* Adjust to control the text width */
+  rgb(0 0 0 / 25%) /* Urban Dictionary-like dark background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  word-wrap: break-word; 
+   
+}
+
+.Date {
+  color: #f5f5f5;
+  font-family: "Ceviche One", system-ui; /* Replace with your font */
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.ReleaseDate p {
+  color: #cfcfcf; /* Lighter text for contrast */
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
 
 .Shine1 {
   position: absolute;
@@ -234,12 +302,7 @@ h1, p, div{
   /* Mobile specific styles here */
 }
 
-@font-face {
-  font-family: 'FightingSpirit';
-  src: url('/img/Fighting Spirit TBS/Fighting Spirit 2.woff2') format('woff2'),
-       url('/img/Fighting Spirit TBS/Fighting Spirit 2.woff') format('woff'),
-       url('/img/Fighting Spirit TBS/Fighting Spirit 2.otf') format('opentype');
-}
+
 
 .car {
   background-repeat: no-repeat;
@@ -282,8 +345,6 @@ h1, p, div{
   0%, 100% { opacity: 0; }
   50% { opacity: 1; }
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
 .shine {
